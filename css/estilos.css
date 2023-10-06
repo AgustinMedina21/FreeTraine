@@ -6,3 +6,54 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+nav{
+    height: 80px;
+    background-color: #FFF5E0;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.titulo{
+    float: left;
+    color: #000000;
+}
+
+.barra{
+    float: right;
+    
+}
+
+.barra ul{
+    list-style: none;
+}
+
+.barra ul li{
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.barra a:hover{
+    color: #88b57f;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header{
+    background-color: #CEDEBD;
+}
+
+main{
+    background-color: #CEDEBD;
+}
+
+footer{
+    background-color: #435334;
+}

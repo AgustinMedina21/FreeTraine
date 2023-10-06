@@ -1,0 +1,3 @@
+Esta pagina web es realizada para el curso de Ba Multiplica.
+El mismo curso tiene como proyecto que podamos crear nuestra propia pagina web en distintos sprints. Utilizando los idiomas basicos de la programacion.
+HTML, CSS, JS.
