@@ -4,19 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 nav{
-    height: 80px;
-    background-color: #FFF5E0;
+    height: 90px;
+    background-color: #0a0e21;
     padding: 30px;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .titulo{
     float: left;
-    color: #000000;
+    color: #ffffff;
 }
 
 .barra{
@@ -34,11 +34,11 @@ nav{
 
 .barra a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 .barra a:hover{
-    color: #88b57f;
+    color: rgb(209, 87, 26);
 }
 
 a{
@@ -47,11 +47,48 @@ a{
 }
 
 header{
-    background-color: #CEDEBD;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card{
+    padding: 30px;
+    background-image: url("../img/gym1.jpg");
+    background-size: cover;
+}
+
+.intro{
+    color: #ffffff;
+}
+
+.intro h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.intro p{
+    max-width: 550px;
+    margin: 0 auto 32px auto;
+}
+
+.vermas{
+    color: white;
+    background: rgb(209, 87, 26);
+    padding: 22px 64px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 main{
-    background-color: #CEDEBD;
+    background-color: #ffffff;
+}
+
+img{
+    width: 100%;
 }
 
 footer{
