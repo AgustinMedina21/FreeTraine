@@ -51,7 +51,7 @@ header{
     text-align: center;
 }
 
-.card{
+.carta{
     padding: 30px;
     background-image: url("../img/gym1.jpg");
     background-size: cover;
@@ -87,8 +87,43 @@ main{
     background-color: #ffffff;
 }
 
-img{
+.subtitulo{
+    margin: 15px;
+    text-align: center;
+    background-color: #0a0e21;
+    color: #ffffff;
+}
+
+.adicional{
+    margin: 20px;
+    text-align: center;
+}
+
+.info{
+    background-color: #0a0e21;
+}
+
+.columna img{
     width: 100%;
+    padding: 15px;
+}
+
+.columna{
+    margin: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.final{
+    text-align: center;
+}
+
+.iniciativa{
+    padding: 70px;
+}
+
+.card{
+    margin: 10px;
 }
 
 footer{
