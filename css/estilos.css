@@ -25,7 +25,7 @@ nav{
 
 .barra{
     float: right;
-    
+    word-spacing: 5px;
 }
 
 .barra ul{
@@ -236,11 +236,249 @@ footer a{
 .final-final{
     text-align: center;
     background-color: #0a0e21;
-    color: rgb(209, 87, 26);
+    color: rgb(255, 255, 255);
     padding: 20px;  
 }
 
+
+.left {
+    width: 344px;
+    height: 750px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 28px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.card__second{
+    background-color: #0a0e21;
+    color: #ffffff;
+}
+
+.left img{
+    width: 100%;
+}
+
+.txt {
+    margin: 0 24px 15px 24px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.precio {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0 24px 16px 60px;
+}
+
+.preciodes {
+    font-size: 35px;
+}
+
+.preciodes2 {
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+}
+
+.precioof {
+    text-decoration: line-through;
+}
+
+.button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(209, 87, 26);
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    display: block;
+    margin: auto;
+    position: relative;
+    outline: none;
+    transition: 3s;
+    overflow: hidden;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button img{
+    width: 15px;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #0a0e21;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 30px 0;
+}
+
+form .contrasena{
+    position: relative;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 30px 0;
+}
+
+form{
+    color: #ffffff;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #ffffff;
+}
+
+.contrasena input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #ffffff;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: rgb(209, 87, 26);
+}
+
+.username input:focus ~ label,
+.username input:valid ~ label{
+    top: -5px;
+    color: rgb(209, 87, 26);
+}
+
+.contrasena label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.contrasena span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: rgb(209, 87, 26);
+}
+
+.contrasena input:focus ~ label,
+.contrasena input:valid ~ label{
+    top: -5px;
+    color: rgb(209, 87, 26);
+}
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: rgb(209, 87, 26);
+    border-radius: 25px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: rgb(209, 87, 26);
+    transition: .5s;
+}
+
+.registrarse{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.registrarse a{
+    color: rgb(209, 87, 26);
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}
+
 @media (min-width: 620px) {
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .barra{
+        font-size: 20px;
+        word-spacing: 10px;
+    }
+
     .adicional{
         width: 650px;
         height: 100px;
@@ -284,9 +522,31 @@ footer a{
     .volumen{
         margin: 70px;
     }
+
+    .left {
+        width: 650px;
+        height: 350px;
+        display: flex;
+        margin: 130px auto 75px;
+        }
+
+    .card__second {
+        width: 600px;
+    }
 }
 
+
 @media (min-width: 1024px){
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .barra{
+        font-size: 20px;
+        word-spacing: 10px;
+    }
+
     .adicional{
         width: 1000px;
         height: 100px;
@@ -327,9 +587,45 @@ footer a{
     }
 
     .volumen{
-        display: flex;
+        display: inline-flex;
         justify-content: space-between;
         align-items: center;
-        margin: 70px;
+    }
+
+    .img-volumen{
+        width: 150%;
+        height: 250px;
+        text-align: center;
+        margin: 55px;
+        padding: 100px;
+    }
+
+    .img-deficit{
+        width: 150%;
+        height: 250px;
+        text-align: center;
+        margin: 55px;
+        padding: 100px;
+    }
+
+    .img-mantenimiento{
+        width: 195%;
+        height: 250px;
+        text-align: center;
+        margin: 55px;
+        padding: 100px;
+    }
+
+    .sub-p{
+        display: none;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 11rem;
+        align-items: center;
+        padding: 1rem;
+        margin: 7.5rem;
     }
 }
