@@ -303,6 +303,11 @@ footer a{
     overflow: hidden;
 }
 
+.vermas a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .button:hover {
     cursor: pointer;
 }
